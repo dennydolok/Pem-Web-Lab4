@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Navigations from "./module/templates/headers/Navigations";
-import Chat from "./module/Chat";
 
 export class Layout extends Component{
     render() {
@@ -12,7 +11,7 @@ export class Layout extends Component{
 
                 <main className="flex-shrink-0" style={{marginTop:"80px", paddingTop:"10px"}}>
                     <div className="container">
-                        <Chat />
+                        <h5>Hello World</h5>
                     </div>
                 </main>
             </div>
